@@ -243,40 +243,16 @@ Processed records are stored in Apache Parquet for efficient analytics.
 | Raw tweet data | `data/raw/tweets.json` |
 | Processed dataset | `data/processed/tweets.parquet` |
 | Aggregated signal | `data/processed/signal_timeseries.csv` |
-| Visualization | `data/processed/signal_plot.png` |
+| Visualization | `data/processed/signal_plot.png` 
 
-### Example Screenshots
 
-Create an `assets/` folder in the repository and place screenshots there:
-
-```
-Output/
-│
-├── scraper_output.png
-├── parquet_preview.png
-├── signal_plot.png
-└── pipeline_logs.png
-```
-
-Embed them in the README like this:
-
-```markdown
 ## Scraper Output
-![Scraper Output](assets/scraper_output.png)
-
-## Processed Dataset
-![Parquet Preview](assets/parquet_preview.png)
+![Scraper Output](assets/example.png)
 
 ## Trading Signal
 ![Trading Signal](assets/signal_plot.png)
 
-## Pipeline Execution
-![Logs](assets/pipeline_logs.png)
-```
 
-Reviewers appreciate seeing the outputs without having to run the project.
-
----
 
 ## ⚡ Performance Optimizations
 
